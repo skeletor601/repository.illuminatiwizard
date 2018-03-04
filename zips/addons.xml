@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.EleKta" name="[B][COLORcyan]E[COLORgrey]leKta [COLORcyan]W[COLORgrey]izard[/COLOR][/B]" version="0.0.5" provider-name="EleKta">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">EleKta Wizard</summary>
+    <description lang="en">EleKta Wizard allows you to get access to the latest EleKta Wizards Custom Builds and APKs.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.illuminati" name="[B][COLORcyan]I[COLORgrey]lluminati [COLORcyan]W[COLORgrey]izard[/COLOR][/B]" version="1.1.7" provider-name="illuminati">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">illuminati-wizard</summary>
+    <description lang="en">Illuminati Wizard allows you to get access to the latest Illuminati Wizards Custom Builds.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.illuminatiwizard" name="[COLORcyan]I[COLORgrey]lluminati [COLORcyan]W[COLORgrey]izard[/COLOR]" version="0.0.1" provider-name="illuminati">
+	<extension point="xbmc.addon.repository" name="Wizard Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/skeletor601/repository.illuminatiwizard/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/skeletor601/repository.illuminatiwizard/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/skeletor601/repository.illuminatiwizard/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Wiz Repo</summary>
+		<description lang="en">Wiz Repo</description>
+		<genre></genre>
+	</extension>
+</addon>
+</addons>
