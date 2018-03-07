@@ -30,7 +30,7 @@
   </extension>
 </addon>
 
-<addon id="repository.illuminatiwizard" name="[COLORcyan]I[COLORgrey]lluminati [COLORcyan]W[COLORgrey]izard[/COLOR]" version="0.0.2" provider-name="illuminati">
+<addon id="repository.illuminatiwizard" name="[COLORdeepskyblue]Ill[COLORcyan]umi[COLORaquamarine]nati [COLORgreenyellow]Bui[COLORyellow]lds [COLORgold]Re[COLORdeeppink]po[/COLOR]" version="0.0.3" provider-name="illuminati">
 	<extension point="xbmc.addon.repository" name="Wizard Repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
@@ -42,8 +42,8 @@
 		<datadir zip="true">https://raw.githubusercontent.com/skeletor601/repository.illuminatiwizard/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Wiz Repo</summary>
-		<description lang="en">Wiz Repo</description>
+		<summary lang="en">Repository For Team Illuminati Wizards and Builds</summary>
+		<description lang="en">Repository For Team Illuminati Wizards and Builds</description>
 		<genre></genre>
 	</extension>
 </addon>
